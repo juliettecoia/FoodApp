@@ -11,10 +11,10 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/logo"
+        android:label="fooDonate"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/fooDonate.">
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -30,20 +30,19 @@
 
         <activity
             android:name=".HomeActivity"
-            android:label="@string/title_activity_maps">
+            android:label="fooDonate">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapsActivity"/>
+        <activity android:name="com.example.juliettecoia.essai_carte.MapsActivity"/>
         <activity android:name=".SecondActivity"/>
         <activity android:name=".MainActivity"/>
         <activity android:name=".MenuConfirmActivity"/>
-        <activity android:name=".DonateActivity"/>
-        <activity android:name="LoginActivity"/>
-        <activity android:name=".FirstPage"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".NavigationDrawer"/>
     </application>
 
 </manifest>

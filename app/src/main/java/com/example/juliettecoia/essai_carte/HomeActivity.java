@@ -27,7 +27,7 @@ public class HomeActivity extends FragmentActivity{
         }
         else if (button_text.equals("create account"))
         {
-            Intent intent = new Intent(this, FirstPage.class);
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
     }
